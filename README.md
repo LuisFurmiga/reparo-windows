@@ -338,19 +338,6 @@ significa:
 
 Como o último comando foi o `chkdsk`, essa verificação identifica se ele terminou com erro.
 
-## Diferença em relação à versão anterior
-
-Nesta versão, o script passou a verificar o retorno do CHKDSK.
-
-Antes, o CHKDSK era executado, mas o script não avaliava se ele terminou com erro.
-
-Agora, se houver erro, o script exibe:
-
-```text
-O CHKDSK no C: terminou com erro.
-Verifique as mensagens acima para detalhes.
-```
-
 ## Observação importante
 
 Na unidade `C:`, é comum o CHKDSK não conseguir executar imediatamente porque o Windows está usando essa unidade.
